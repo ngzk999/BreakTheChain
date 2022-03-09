@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_statistics"
+        android:title="Statistics"
+        android:icon="@drawable/icon_statistics"
+        app:cnb_backgroundColor="#562C2C"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
+
+    <item
+        android:id="@+id/nav_record"
+        android:title="Record"
+        android:icon="@drawable/icon_record"
+        app:cnb_backgroundColor="#A4402D"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
+
+    <item
+        android:id="@+id/nav_info"
+        android:title="Info"
+        android:icon="@drawable/icon_info"
+        app:cnb_backgroundColor="#CB4A2D"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/icon_profile"
+        app:cnb_backgroundColor="#D04C2D"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
+
+</menu>
