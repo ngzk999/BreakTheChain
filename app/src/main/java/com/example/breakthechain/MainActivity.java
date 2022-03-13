@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         chipNavigationBar = findViewById(R.id.nav_menu);
+        chipNavigationBar.setItemSelected(R.id.nav_statistics, true);
         getSupportFragmentManager().beginTransaction().replace(R.id.container,new StatisticsFragment()).commit();
         bottomMenu();
     }
