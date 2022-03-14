@@ -7,6 +7,28 @@
     tools:context=".StatisticsFragment"
     android:id="@+id/idFrameLayout">
 
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            style="@android:style/Widget.ProgressBar"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Retrieving Data ..."
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressBar"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +49,7 @@
                     android:id="@+id/idTVMyTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Malaysia Record"
+                    android:text="Malaysia Record\n yyyy/mm/dd"
                     android:textAlignment="center"
                     android:gravity="center_horizontal"
                     android:textSize="18sp"

@@ -1,7 +1,9 @@
 package com.example.breakthechain;
 
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -72,9 +74,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(JSONObject response) {
                 try {
+                    RelativeLayout loadingPanel = findViewById(R.id.loadingPanel);
 
                     TextView malaysiaTitle = findViewById(R.id.idTVMyTitle);
-                    malaysiaTitle.setText("Malaysia Cases - " + response.getString("date"));
+                    malaysiaTitle.setText("Malaysia Cases\n" + response.getString("date"));
 
                     TextView myNew = findViewById(R.id.idTVMyNew);
                     myNew.setText(response.getString("newCases"));
@@ -84,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
 
                     TextView myDeath = findViewById(R.id.idTVMyDeath);
                     myDeath.setText(response.getString("deathCases"));
+
+                    loadingPanel.setVisibility(View.GONE);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
