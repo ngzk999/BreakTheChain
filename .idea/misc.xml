@@ -3,16 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/drawable/icon_check.xml" value="0.2203125" />
         <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/drawable/rounded_corners.xml" value="0.2675925925925926" />
         <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/activity_main.xml" value="0.27808988764044945" />
-        <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/fragment_blank.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/fragment_info.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/fragment_profile.xml" value="0.17806484295845998" />
-        <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/fragment_progress.xml" value="0.25" />
-        <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/fragment_record.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/fragment_record.xml" value="0.25" />
         <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/fragment_statistics.xml" value="0.27489481065918653" />
-        <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/progress_bar.xml" value="0.2046875" />
-        <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/layout/state_rv_item.xml" value="0.22" />
         <entry key="..\:/Users/PC/Desktop/BreakTheChain/app/src/main/res/menu/nav_menu.xml" value="0.1" />
       </map>
     </option>

@@ -10,6 +10,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="211dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:src="@drawable/check_mark"
+            android:layout_marginTop="50dp"/>
+
         <EditText
             android:id="@+id/idETName"
             android:layout_width="match_parent"
