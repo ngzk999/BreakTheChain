@@ -4,7 +4,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -43,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         chipNavigationBar = findViewById(R.id.nav_menu);
         chipNavigationBar.setItemSelected(R.id.nav_statistics, true);
 
+
         callMyApi();
         callStateApi();
 
@@ -72,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new ProfileFragment();
                         break;
                 }
+
                 getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment).commit();
             }
         });
@@ -87,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(JSONObject response) {
                 try {
                     RelativeLayout loadingPanel = findViewById(R.id.loadingPanel);
+                    loadingPanel.setVisibility(View.VISIBLE);
 
                     TextView malaysiaTitle = findViewById(R.id.idTVMyTitle);
                     malaysiaTitle.setText("Malaysia Cases\n" + response.getString("date"));
@@ -99,7 +105,6 @@ public class MainActivity extends AppCompatActivity {
 
                     TextView myDeath = findViewById(R.id.idTVMyDeath);
                     myDeath.setText(response.getString("deathCases"));
-
                     loadingPanel.setVisibility(View.GONE);
 
                 } catch (JSONException e) {
@@ -215,6 +220,9 @@ public class MainActivity extends AppCompatActivity {
                         textViews.get(i++).setText(jsonArr.getJSONObject(j).getString("deathCases"));
                         j++;
                     }
+
+                    RelativeLayout loadingPanel = findViewById(R.id.loadingPanel);
+                    loadingPanel.setVisibility(View.GONE);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
