@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">BreakTheChain</string>
+    <string-array name="name_array">
+        <item>No Name Selected</item>
+        <item>NG ZHENG KEONG</item>
+        <item>TAN YEONG YI</item>
+        <item>YONG WAI CHENG</item>
+        <item>ALEX</item>
+        <item>PANG WEI SZE</item>
+        <item>TEO JIN MEI</item>
+    </string-array>
     <string name="experiencing_symptoms">If you are experiencing any of the above-mentioned symptoms during \'Office Day\', please:\n\n\t\t\tStep 1: Work From Home (WFH) immediately.\n\t\t\tStep 2: Inform your reporting superior.\n\t\t\tStep 3: Request WFH leave or Medical leave.</string>
 </resources>
