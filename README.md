@@ -4,4 +4,4 @@ An Android Application that helps in reviewing Malaysia's COVID-19 statistics, s
 ![image](https://user-images.githubusercontent.com/54563232/158362653-2f3b7a03-26bb-426b-9672-7c2494bb4a9f.png)
 ![image](https://user-images.githubusercontent.com/54563232/158362829-0b9641a0-57db-49d5-8206-4cd353325c3e.png)
 ![image](https://user-images.githubusercontent.com/54563232/158362929-8b96ead7-f6a2-4be4-9e54-b2f7e2bfb49d.png)
-![image](https://user-images.githubusercontent.com/54563232/158363006-d872bd3f-1294-41a3-b761-6f008124a3fa.png)
+![image](https://user-images.githubusercontent.com/54563232/158364238-eca1fb02-b7e0-4b8b-bb71-f549e2466b08.png)
