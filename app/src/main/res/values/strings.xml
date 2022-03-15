@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">BreakTheChain</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="experiencing_symptoms">If you are experiencing any of the above-mentioned symptoms during \'Office Day\', please:\n\n\t\t\tStep 1: Work From Home (WFH) immediately.\n\t\t\tStep 2: Inform your reporting superior.\n\t\t\tStep 3: Request WFH leave or Medical leave.</string>
 </resources>
