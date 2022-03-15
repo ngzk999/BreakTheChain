@@ -35,6 +35,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     ChipNavigationBar chipNavigationBar;
+    String apiKey = "f99d3c62659e4088a1a286fde6664c9a";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

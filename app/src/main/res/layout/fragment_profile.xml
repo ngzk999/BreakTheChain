@@ -5,12 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Profile Screen"
-        android:gravity="center"
-        android:textSize="30dp"/>
+        android:layout_height="650dp"
+        android:id="@+id/newsRecyclerView"
+        android:layout_margin="3dp"
+        android:fitsSystemWindows="true"
+        android:padding="2dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </FrameLayout>
